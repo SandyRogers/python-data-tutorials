@@ -6,7 +6,12 @@ To use these notebooks you'll need a [Python](https://www.python.org/) environme
 You can install these e.g. using [`pip`](https://pypi.org/project/pip/)
 
 ```bash
-pip install jupyterlab pandas numpy scipy scikit-learn seaborn matplotlib openpyxl
+pip install jupyterlab pandas numpy scipy scikit-learn seaborn matplotlib openpyxl snakemake
 ```
 
 You can then check out this repository and launch `jupyter lab` to see and use the Jupyter notebooks.
+
+Additional material:
+
+- `snakemake_pipeline_solution/` contains a complete introductory Snakemake workflow.
+- `snakemake_pipeline_tutorial/` contains a scaffolded version to complete as a tutorial.

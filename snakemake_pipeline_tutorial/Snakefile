@@ -1,0 +1,21 @@
+rule all:
+    input:
+        "results/weight_histogram.png"
+
+
+rule filter_measurements:
+    input:
+        "measurements.txt"
+    output:
+        "results/filtered_measurements.tsv"
+    shell:
+        "bash scripts/filter_measurements.sh {input} {output}"
+
+
+rule plot_histogram:
+    input:
+        <<what goes here?>>
+    output:
+        "results/weight_histogram.png"
+    shell:
+        "python3 <<what goes gere?>> {input} {output}"
