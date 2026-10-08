@@ -7,5 +7,6 @@ output_file="$2"
 
 {
     head -n 1 "$input_file"
-    tail -n +2 "$input_file" | sort -t $'\t' -k1,1 | head -n 100
+    # Consume all sorted rows so sort does not get SIGPIPE under pipefail.
+    tail -n +2 "$input_file" | sort -t $'\t' -k1,1 | sed -n '1,100p'
 } > "$output_file"
