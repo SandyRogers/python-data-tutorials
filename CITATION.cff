@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these tutorials, please consider citing them as below."
+authors:
+- family-names: "Rogers"
+  given-names: "Alexander B"
+  orcid: "https://orcid.org/0000-0002-4283-6135"
+- family-names: "Shehu"
+  given-names: "Mahfouz"
+  orcid: "https://orcid.org/0009-0002-9470-0368"
+title: "python-data-tutorials"
+version: 1.0.0
+date-released: 2025-10-22
+url: "https://github.com/SandyRogers/python-data-tutorials"
